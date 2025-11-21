@@ -45,7 +45,7 @@ export default function EndorsementsPage() {
                   <p className="text-sm text-[#64748B]">Patient satisfaction</p>
                 </div>
                 <div className="bg-[#E0F2FE] p-4 rounded-lg">
-                  <p className="text-2xl font-bold text-[#3B82F6]">&lt;30</p>
+                  <p className="text-2xl font-bold text-[#3B82F6]">{'<'}30</p>
                   <p className="text-sm text-[#64748B]">Days to ROI</p>
                 </div>
               </div>
