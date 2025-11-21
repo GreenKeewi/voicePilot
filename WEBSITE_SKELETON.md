@@ -455,10 +455,10 @@ Sunday: Closed (Email support available)
 **[GOOGLE MAPS EMBED]**
 ```
 Location: 2847 Innovation Drive, San Francisco, CA 94103
-Embed Code: <iframe src="https://maps.google.com/maps?q=2847+Innovation+Drive,+San+Francisco,+CA+94103&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+Embed Code: <iframe src="https://maps.google.com/maps?q=2847%20Innovation%20Drive,%20San%20Francisco,%20CA%2094103&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 Note: For production use, replace with official Google Maps Embed API:
-https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=2847+Innovation+Drive,San+Francisco,CA+94103
+https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=2847%20Innovation%20Drive,San%20Francisco,CA%2094103
 ```
 
 **Map Features:**
