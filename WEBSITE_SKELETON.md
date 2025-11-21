@@ -446,7 +446,7 @@ Sunday: Closed (Email support available)
 #### Phone Support
 **Sales Inquiries:** +1 (415) 555-0147  
 **Technical Support:** +1 (415) 555-0148  
-**Toll-Free:** 1-800-VOICEPLT (1-800-864-2375)
+**Toll-Free:** 1-800-VOICE-AI (1-800-864-2324)
 
 ---
 
@@ -455,7 +455,10 @@ Sunday: Closed (Email support available)
 **[GOOGLE MAPS EMBED]**
 ```
 Location: 2847 Innovation Drive, San Francisco, CA 94103
-Embed Code: <iframe src="https://maps.google.com/maps?q=2847+Innovation+Drive+San+Francisco+CA" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+Embed Code: <iframe src="https://maps.google.com/maps?q=2847+Innovation+Drive,+San+Francisco,+CA+94103&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+Note: For production use, replace with official Google Maps Embed API:
+https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=2847+Innovation+Drive,San+Francisco,CA+94103
 ```
 
 **Map Features:**
@@ -1037,7 +1040,7 @@ VoicePilot Website
 
 **Contact & Social:**
 - Email: support@voicepilot.ai
-- Phone: 1-800-VOICEPLT
+- Phone: 1-800-VOICE-AI
 - Social Media Icons (Facebook, Instagram, Twitter, YouTube)
 
 **Copyright:**
