@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { RiLightbulbFill, RiTeamFill, RiRocketFill } from "@remixicon/react"
 
 export default function About() {
