@@ -1,8 +1,14 @@
 export const siteConfig = {
-  name: "Solar Technologies",
-  url: "https://solar.tremor.so",
-  description: "Automation for every Farm.",
+  name: "VoicePilot",
+  tagline: "Smart Call Agents for Small Business Growth",
+  url: "https://voicepilot.ai",
+  description: "Smart AI call agents that answer calls, book appointments, and provide customer support 24/7.",
   baseLinks: {
     home: "/",
+    products: "/products",
+    about: "/about",
+    contact: "/contact",
+    endorsements: "/endorsements",
+    blog: "/blog",
   },
 }

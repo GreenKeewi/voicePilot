@@ -6,7 +6,6 @@ import { cx } from "@/lib/utils"
 import { RiCloseFill, RiMenuFill } from "@remixicon/react"
 import Link from "next/link"
 import React from "react"
-import { SolarLogo } from "../../../public/SolarLogo"
 import { Button } from "../Button"
 
 export function NavBar() {
@@ -25,19 +24,30 @@ export function NavBar() {
       <div className="w-full md:my-auto">
         <div className="relative flex items-center justify-between">
           <Link href={siteConfig.baseLinks.home} aria-label="Home">
-            <span className="sr-only">Solar Tech Logo</span>
-            <SolarLogo className="w-22" />
+            <span className="sr-only">VoicePilot Logo</span>
+            <div className="flex items-center gap-2">
+              <div className="text-2xl font-bold text-gray-900">VoicePilot</div>
+            </div>
           </Link>
           <nav className="hidden sm:block md:absolute md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:transform">
             <div className="flex items-center gap-10 font-medium">
-              <Link className="px-2 py-1 text-gray-900" href="#solutions">
-                Solutions
+              <Link className="px-2 py-1 text-gray-900" href={siteConfig.baseLinks.home}>
+                Home
               </Link>
-              <Link className="px-2 py-1 text-gray-900" href="#farm-management">
-                Farm Management
+              <Link className="px-2 py-1 text-gray-900" href={siteConfig.baseLinks.products}>
+                Products
               </Link>
-              <Link className="px-2 py-1 text-gray-900" href="#solar-analytics">
-                Analytics
+              <Link className="px-2 py-1 text-gray-900" href={siteConfig.baseLinks.about}>
+                About
+              </Link>
+              <Link className="px-2 py-1 text-gray-900" href={siteConfig.baseLinks.contact}>
+                Contact
+              </Link>
+              <Link className="px-2 py-1 text-gray-900" href={siteConfig.baseLinks.endorsements}>
+                Endorsements
+              </Link>
+              <Link className="px-2 py-1 text-gray-900" href={siteConfig.baseLinks.blog}>
+                Blog
               </Link>
             </div>
           </nav>
@@ -45,7 +55,7 @@ export function NavBar() {
             variant="secondary"
             className="hidden h-10 font-semibold sm:block"
           >
-            Get a quote
+            Try the Demo
           </Button>
           <Button
             onClick={() => setOpen(!open)}
@@ -74,17 +84,26 @@ export function NavBar() {
         >
           <ul className="space-y-4 font-medium">
             <li onClick={() => setOpen(false)}>
-              <Link href="#solutions">Solutions</Link>
+              <Link href={siteConfig.baseLinks.home}>Home</Link>
             </li>
             <li onClick={() => setOpen(false)}>
-              <Link href="#farm-management">Farm Management</Link>
+              <Link href={siteConfig.baseLinks.products}>Products</Link>
             </li>
             <li onClick={() => setOpen(false)}>
-              <Link href="#solar-analytics">Analytics</Link>
+              <Link href={siteConfig.baseLinks.about}>About</Link>
+            </li>
+            <li onClick={() => setOpen(false)}>
+              <Link href={siteConfig.baseLinks.contact}>Contact</Link>
+            </li>
+            <li onClick={() => setOpen(false)}>
+              <Link href={siteConfig.baseLinks.endorsements}>Endorsements</Link>
+            </li>
+            <li onClick={() => setOpen(false)}>
+              <Link href={siteConfig.baseLinks.blog}>Blog</Link>
             </li>
           </ul>
           <Button variant="secondary" className="text-lg">
-            Get a quote
+            Try the Demo
           </Button>
         </nav>
       </div>
