@@ -7,30 +7,30 @@ import { NavBar } from "@/components/ui/Navbar"
 import { siteConfig } from "./siteConfig"
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yoururl.com"),
-  title: siteConfig.name,
-  description: siteConfig.description,
-  keywords: ["Marketing", "Database", "Software"],
+  metadataBase: new URL("https://voicepilot.ai"),
+  title: "VoicePilot — AI Call Agents for Small Businesses",
+  description: "Smart AI call agents that answer calls, book appointments, and provide customer support 24/7.",
+  keywords: ["AI call agent", "small business phone automation", "booking AI", "customer support AI"],
   authors: [
     {
-      name: "yourname",
-      url: "",
+      name: "VoicePilot",
+      url: "https://voicepilot.ai",
     },
   ],
-  creator: "yourname",
+  creator: "VoicePilot",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: siteConfig.url,
-    title: siteConfig.name,
+    title: "VoicePilot — AI Call Agents for Small Businesses",
     description: siteConfig.description,
     siteName: siteConfig.name,
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.name,
+    title: "VoicePilot — AI Call Agents for Small Businesses",
     description: siteConfig.description,
-    creator: "@yourname",
+    creator: "@voicepilot",
   },
   icons: {
     icon: "/favicon.ico",
@@ -45,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${GeistSans.className} min-h-screen overflow-x-hidden scroll-auto bg-gray-50 antialiased selection:bg-orange-100 selection:text-orange-600`}
+        className={`${GeistSans.className} min-h-screen overflow-x-hidden scroll-auto bg-gray-50 antialiased selection:bg-teal-100 selection:text-teal-600`}
       >
         <NavBar />
         {children}

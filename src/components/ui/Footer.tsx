@@ -1,60 +1,29 @@
 import {
-  RiGithubFill,
-  RiSlackFill,
-  RiTwitterXFill,
+  RiInstagramFill,
   RiYoutubeFill,
+  RiTwitterXFill,
 } from "@remixicon/react"
+import { RiTiktokFill } from "@remixicon/react"
 import Link from "next/link"
-import { SolarLogo } from "../../../public/SolarLogo"
 const CURRENT_YEAR = new Date().getFullYear()
 
 const Footer = () => {
   const sections = {
-    solutions: {
-      title: "Solutions",
-      items: [
-        { label: "Crop Monitoring", href: "#" },
-        { label: "Irrigation Control", href: "#" },
-        { label: "Soil Analytics", href: "#" },
-        { label: "Weather Integration", href: "#" },
-        { label: "Documentation", href: "#" },
-        { label: "Smart Farming Guide", href: "#" },
-        { label: "Equipment", href: "#" },
-      ],
-    },
     company: {
       title: "Company",
       items: [
-        { label: "About us", href: "#" },
-        { label: "Blog", href: "#" },
-        { label: "Careers", href: "#" },
-        { label: "Success Stories", href: "#" },
-        { label: "Sustainability", href: "#" },
+        { label: "About us", href: "/about" },
+        { label: "Products", href: "/products" },
+        { label: "Contact", href: "/contact" },
+        { label: "Endorsements", href: "/endorsements" },
+        { label: "Blog", href: "/blog" },
       ],
     },
-    resources: {
-      title: "Resources",
+    legal: {
+      title: "Legal",
       items: [
-        { label: "Farmer Network", href: "#" },
-        {
-          label: "Community",
-          href: "#",
-          external: true,
-        },
-        { label: "Contact", href: "#" },
-        { label: "Support", href: "#" },
-        { label: "Privacy Policy", href: "#" },
         { label: "Terms of Service", href: "#" },
-        { label: "Report an Issue", href: "#" },
-      ],
-    },
-    partners: {
-      title: "Partners",
-      items: [
-        { label: "Dealer Network", href: "#", external: true },
-        { label: "System Status", href: "#", external: true },
-        { label: "Research Partners", href: "#", external: true },
-        { label: "Integration Guide", href: "#" },
+        { label: "Privacy Policy", href: "#" },
       ],
     },
   }
@@ -146,9 +115,8 @@ const Footer = () => {
             href="/"
             className="flex items-center font-medium text-gray-700 select-none sm:text-sm"
           >
-            <SolarLogo className="ml-2 w-20" />
-
-            <span className="sr-only">Solar Logo (go home)</span>
+            <div className="ml-2 text-2xl font-bold text-gray-900">VoicePilot</div>
+            <span className="sr-only">VoicePilot Logo (go home)</span>
           </Link>
 
           <div>
@@ -160,7 +128,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="rounded-sm p-2 text-gray-700 transition-colors duration-200 hover:bg-gray-200 hover:text-gray-900"
               >
-                <RiTwitterXFill className="size-5" />
+                <RiInstagramFill className="size-5" />
               </Link>
               <Link
                 href="#"
@@ -176,7 +144,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="rounded-sm p-2 text-gray-700 transition-colors duration-200 hover:bg-gray-200 hover:text-gray-900"
               >
-                <RiGithubFill className="size-5" />
+                <RiTiktokFill className="size-5" />
               </Link>
               <Link
                 href="#"
@@ -184,11 +152,11 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="rounded-sm p-2 text-gray-700 transition-colors duration-200 hover:bg-gray-200 hover:text-gray-900"
               >
-                <RiSlackFill className="size-5" />
+                <RiTwitterXFill className="size-5" />
               </Link>
             </div>
             <div className="ml-2 hidden text-sm text-gray-700 lg:inline">
-              &copy; {CURRENT_YEAR} Solar Technologies, Inc.
+              &copy; {CURRENT_YEAR} VoicePilot, Inc.
             </div>
           </div>
         </div>
