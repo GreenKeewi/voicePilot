@@ -1,6 +1,6 @@
 "use client"
 import { motion, Variants } from "motion/react"
-import { SolarMark } from "../../../public/SolarMark"
+import { VoicePilotMark } from "../../../public/VoicePilotMark"
 
 const ChipViz = () => {
   const createVariants = ({
@@ -60,7 +60,7 @@ const ChipViz = () => {
                 className="absolute inset-[6px] rounded-full bg-white/10 p-1 backdrop-blur-[1px]"
               >
                 <div className="relative flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-white to-gray-300 shadow-lg shadow-black/40">
-                  <SolarMark className="w-6" />
+                  <VoicePilotMark className="w-6" />
                 </div>
               </motion.div>
             </div>

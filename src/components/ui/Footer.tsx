@@ -1,9 +1,9 @@
 import {
   RiInstagramFill,
-  RiYoutubeFill,
+  RiTiktokFill,
   RiTwitterXFill,
+  RiYoutubeFill,
 } from "@remixicon/react"
-import { RiTiktokFill } from "@remixicon/react"
 import Link from "next/link"
 const CURRENT_YEAR = new Date().getFullYear()
 
@@ -15,7 +15,7 @@ const Footer = () => {
         { label: "About us", href: "/about" },
         { label: "Products", href: "/products" },
         { label: "Contact", href: "/contact" },
-        { label: "Endorsements", href: "/endorsements" },
+        { label: "Testimonials", href: "/endorsements" },
         { label: "Blog", href: "/blog" },
       ],
     },
@@ -78,10 +78,10 @@ const Footer = () => {
         </div>
         <svg
           className="mb-10 h-20 w-full border-y border-dashed border-gray-300 stroke-gray-300"
-          // style={{
-          //   maskImage:
-          //     "linear-gradient(transparent, white 10rem, white calc(100% - 10rem), transparent)",
-          // }}
+        // style={{
+        //   maskImage:
+        //     "linear-gradient(transparent, white 10rem, white calc(100% - 10rem), transparent)",
+        // }}
         >
           <defs>
             <pattern

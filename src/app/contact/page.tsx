@@ -28,7 +28,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="mb-2 text-lg font-semibold text-gray-900">Email</h3>
-                  <p className="text-gray-600">contact@callifyai.co</p>
+                  <p className="text-gray-600">contact@voicepilot.co</p>
                 </div>
               </div>
             </div>

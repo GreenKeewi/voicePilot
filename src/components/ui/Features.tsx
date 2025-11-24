@@ -10,7 +10,7 @@ import {
   RiPlaneFill,
   RiTruckFill,
 } from "@remixicon/react"
-import { SolarMark } from "../../../public/SolarMark"
+import { VoicePilotMark } from "../../../public/VoicePilotMark"
 import { Icons } from "../Icons"
 import { Orbit } from "../Orbit"
 import ChipViz from "./ChipViz"
@@ -18,7 +18,7 @@ import ChipViz from "./ChipViz"
 export default function Features() {
   return (
     <section
-      aria-label="Solar Technologies Features for Farms"
+      aria-label="VoicePilot Features"
       id="solutions"
       className="relative mx-auto max-w-6xl scroll-my-24"
     >
@@ -145,10 +145,10 @@ export default function Features() {
         <div className="relative col-span-2 flex items-center justify-center overflow-hidden">
           <svg
             className="absolute size-full mask-[linear-gradient(transparent,white_10rem)]"
-            // style={{
-            //   maskImage:
-            //     "linear-gradient(transparent, white 20rem, white calc(100% - 20rem), transparent)",
-            // }}
+          // style={{
+          //   maskImage:
+          //     "linear-gradient(transparent, white 20rem, white calc(100% - 20rem), transparent)",
+          // }}
           >
             <defs>
               <pattern
@@ -286,7 +286,7 @@ export default function Features() {
                 <div className="relative flex h-48 w-48 items-center justify-center">
                   <div className="rounded-full p-1 ring-1 ring-black/10">
                     <div className="relative z-10 flex size-20 items-center justify-center rounded-full bg-white ring-1 shadow-[inset_0px_-15px_20px_rgba(0,0,0,0.1),0_7px_10px_0_rgba(0,0,0,0.15)] ring-black/20">
-                      <SolarMark className="size-10" />
+                      <VoicePilotMark className="size-10" />
                     </div>
                     <div className="absolute inset-12 animate-[spin_8s_linear_infinite] rounded-full bg-linear-to-t from-transparent via-orange-400 to-transparent blur-lg" />
                   </div>
@@ -355,7 +355,7 @@ export default function Features() {
             <div className="pointer-events-none relative h-full select-none">
               <div className="absolute top-[192px] left-[191.8px]">
                 <div className="flex h-12 w-12 items-center justify-center bg-white ring-1 shadow-sm ring-black/15">
-                  <SolarMark className="h-8 w-8" />
+                  <VoicePilotMark className="h-8 w-8" />
                 </div>
               </div>
               <div className="absolute top-[144px] left-[48px]">
@@ -443,10 +443,10 @@ export default function Features() {
         <div className="relative col-span-2 flex items-center justify-center overflow-hidden">
           <svg
             className="absolute size-full mask-[linear-gradient(white_10rem,transparent)]"
-            // style={{
-            //   maskImage:
-            //     "linear-gradient(transparent, white 20rem, white calc(100% - 20rem), transparent)",
-            // }}
+          // style={{
+          //   maskImage:
+          //     "linear-gradient(transparent, white 20rem, white calc(100% - 20rem), transparent)",
+          // }}
           >
             <defs>
               <pattern
