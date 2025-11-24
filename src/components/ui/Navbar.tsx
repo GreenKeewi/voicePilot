@@ -44,7 +44,7 @@ export function NavBar() {
                 Contact
               </Link>
               <Link className="px-2 py-1 text-gray-900" href={siteConfig.baseLinks.endorsements}>
-                Endorsements
+                Testimonials
               </Link>
               <Link className="px-2 py-1 text-gray-900" href={siteConfig.baseLinks.blog}>
                 Blog
@@ -96,7 +96,7 @@ export function NavBar() {
               <Link href={siteConfig.baseLinks.contact}>Contact</Link>
             </li>
             <li onClick={() => setOpen(false)}>
-              <Link href={siteConfig.baseLinks.endorsements}>Endorsements</Link>
+              <Link href={siteConfig.baseLinks.endorsements}>Testimonials</Link>
             </li>
             <li onClick={() => setOpen(false)}>
               <Link href={siteConfig.baseLinks.blog}>Blog</Link>

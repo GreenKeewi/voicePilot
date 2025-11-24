@@ -8,7 +8,7 @@ export const siteConfig = {
     products: "/products",
     about: "/about",
     contact: "/contact",
-    endorsements: "/endorsements",
+    endorsements: "/#testimonials",
     blog: "/blog",
   },
 }

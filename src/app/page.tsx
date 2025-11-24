@@ -1,4 +1,5 @@
 import { Hero } from "@/components/ui/Hero"
+import Testimonials from "@/components/ui/Testimonials"
 import VoicePilotFeatures from "@/components/ui/VoicePilotFeatures"
 
 export default function Home() {
@@ -9,6 +10,9 @@ export default function Home() {
       </div>
       <div className="mt-52 px-4 xl:px-0">
         <VoicePilotFeatures />
+      </div>
+      <div className="mt-36 px-4 xl:px-0">
+        <Testimonials />
       </div>
     </main>
   )
