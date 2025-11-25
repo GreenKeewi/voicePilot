@@ -1,4 +1,4 @@
-import { RiLightbulbFill, RiTeamFill, RiRocketFill } from "@remixicon/react"
+import { RiLightbulbFill, RiRocketFill, RiTeamFill } from "@remixicon/react"
 
 export default function About() {
   return (
@@ -48,7 +48,7 @@ export default function About() {
             </div>
             <h3 className="mb-3 text-xl font-semibold text-gray-900">Innovation</h3>
             <p className="text-gray-600">
-              Cutting-edge AI technology made simple and accessible for everyone
+              The newest AI technology made simple and accessible for everyone
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export default function About() {
             </div>
             <h3 className="mb-3 text-xl font-semibold text-gray-900">Support</h3>
             <p className="text-gray-600">
-              Dedicated to helping small businesses succeed and grow
+              Dedicated to helping small businesses grow and succeed
             </p>
           </div>
 
@@ -75,15 +75,6 @@ export default function About() {
               Empowering businesses to scale without overwhelming overhead
             </p>
           </div>
-        </div>
-
-        {/* Optional Video Section */}
-        <div className="mt-16 rounded-xl bg-gray-100 p-12 text-center">
-          <div className="mb-4 text-4xl">🎥</div>
-          <h3 className="mb-3 text-2xl font-semibold text-gray-900">
-            Our Story (Video)
-          </h3>
-          <p className="text-gray-600">Video placeholder - Coming soon</p>
         </div>
       </div>
     </main>
