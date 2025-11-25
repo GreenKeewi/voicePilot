@@ -1,23 +1,23 @@
 import {
-  RiPhoneFill,
   RiCalendarCheckFill,
+  RiCheckLine,
   RiCustomerService2Fill,
   RiGlobalFill,
-  RiCheckLine,
+  RiPhoneFill,
 } from "@remixicon/react"
 
 export default function Products() {
   const products = [
     {
       name: "Starter AI Agent",
-      price: "$29",
+      price: "$1,499",
       period: "/mo",
       description: "Basic call answering, FAQs, daily summaries.",
       features: [
         "Basic call answering",
         "FAQ responses",
         "Daily summaries",
-        "Up to 100 calls/month",
+        "Up to 1000 calls/month. That's 33 calls a day!",
         "Email support",
       ],
       icon: <RiPhoneFill className="size-8 text-teal-500" />,
@@ -25,14 +25,14 @@ export default function Products() {
     },
     {
       name: "Smart Booking Agent",
-      price: "$59",
+      price: "$2,999",
       period: "/mo",
       description: "Everything from Starter + appointment scheduling, calendar integration.",
       features: [
         "Everything in Starter",
         "Appointment scheduling",
         "Calendar integration",
-        "Up to 300 calls/month",
+        "Up to 3000 calls/month. That's 100 calls a day!",
         "SMS notifications",
         "Priority support",
       ],
@@ -41,7 +41,7 @@ export default function Products() {
     },
     {
       name: "Full Support Agent",
-      price: "$99",
+      price: "$4,999",
       period: "/mo",
       description: "Bookings + multilanguage support + lead capture + custom voice.",
       features: [
@@ -49,16 +49,17 @@ export default function Products() {
         "Multilanguage support",
         "Lead capture & CRM",
         "Custom voice options",
-        "Up to 1000 calls/month",
+        "Up to 5000 calls/month. That's 166 calls a day!",
         "Advanced analytics",
-        "Dedicated support",
+        "24/7 dedicated support",
+        "Additional calls cost extra.",
       ],
       icon: <RiCustomerService2Fill className="size-8 text-teal-500" />,
       highlight: false,
     },
     {
       name: "Enterprise Custom Agent",
-      price: "$199-$499",
+      price: "$7,500+",
       period: "/mo",
       description: "Fully customized agent trained on business data, unlimited calls.",
       features: [
@@ -85,7 +86,7 @@ export default function Products() {
             Choose Your AI Agent
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-600">
-            Select the perfect plan for your business. All plans include a 14-day free trial.
+            Select the perfect plan for your business. All plans include a 7-day free trial.
           </p>
         </div>
 
@@ -94,11 +95,10 @@ export default function Products() {
           {products.map((product, index) => (
             <div
               key={index}
-              className={`relative flex flex-col rounded-xl border p-8 ${
-                product.highlight
-                  ? "border-teal-500 bg-teal-50 shadow-lg ring-2 ring-teal-500"
-                  : "border-gray-200 bg-white shadow-sm"
-              }`}
+              className={`relative flex flex-col rounded-xl border p-8 ${product.highlight
+                ? "border-teal-500 bg-teal-50 shadow-lg ring-2 ring-teal-500"
+                : "border-gray-200 bg-white shadow-sm"
+                }`}
             >
               {product.highlight && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2">
@@ -107,7 +107,7 @@ export default function Products() {
                   </span>
                 </div>
               )}
-              
+
               <div className="mb-6">
                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-teal-50">
                   {product.icon}
@@ -138,23 +138,15 @@ export default function Products() {
               </ul>
 
               <button
-                className={`w-full rounded-md px-4 py-3 text-center font-semibold transition-all ${
-                  product.highlight
-                    ? "bg-teal-500 text-white hover:bg-teal-600"
-                    : "bg-gray-900 text-white hover:bg-gray-800"
-                }`}
+                className={`w-full rounded-md px-4 py-3 text-center font-semibold transition-all ${product.highlight
+                  ? "bg-teal-500 text-white hover:bg-teal-600"
+                  : "bg-gray-900 text-white hover:bg-gray-800"
+                  }`}
               >
                 Get Started
               </button>
             </div>
           ))}
-        </div>
-
-        {/* Compare Plans CTA */}
-        <div className="text-center">
-          <button className="inline-flex items-center rounded-md border-2 border-teal-500 bg-white px-8 py-3 text-lg font-semibold text-teal-600 transition-all hover:bg-teal-50">
-            Compare Plans
-          </button>
         </div>
       </div>
     </main>
