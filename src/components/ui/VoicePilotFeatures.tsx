@@ -1,11 +1,11 @@
 import {
-  RiPhoneFill,
   RiCalendarCheckFill,
-  RiCustomerService2Fill,
   RiCheckDoubleLine,
+  RiCustomerService2Fill,
   RiMoneyDollarCircleFill,
-  RiUserVoiceFill,
+  RiPhoneFill,
   RiSettings4Fill,
+  RiUserVoiceFill,
 } from "@remixicon/react"
 
 export default function VoicePilotFeatures() {

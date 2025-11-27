@@ -18,7 +18,7 @@ const summary = [
     yield: "+11.2%",
     efficiency: "+7.8%",
     nutrients: "+4.9%",
-    bgColor: "bg-amber-500",
+    bgColor: "bg-teal-500",
     changeType: "positive",
   },
   {
