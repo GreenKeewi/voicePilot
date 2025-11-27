@@ -96,7 +96,7 @@ export default function Testimonials() {
                         Start your 7-day free trial today
                     </p>
                     <a
-                        href="/products"
+                        href="/pricing"
                         className="inline-flex items-center rounded-md bg-teal-500 px-6 py-3 text-lg font-semibold text-white transition-all hover:bg-teal-600"
                     >
                         Get Started

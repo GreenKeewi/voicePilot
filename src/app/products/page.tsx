@@ -1,3 +1,4 @@
+import { applyDiscountToPriceString } from "@/lib/utils"
 import {
   RiCalendarCheckFill,
   RiCheckLine,
@@ -115,13 +116,23 @@ export default function Products() {
                 <h2 className="text-2xl font-semibold text-gray-900">
                   {product.name}
                 </h2>
-                <div className="mt-4 flex items-baseline">
-                  <span className="text-4xl font-bold text-gray-900">
-                    {product.price}
-                  </span>
-                  <span className="ml-1 text-lg text-gray-600">
-                    {product.period}
-                  </span>
+                <div className="mt-4 flex items-baseline gap-3">
+                  <div className="flex items-baseline">
+                    <span className="text-4xl font-bold text-gray-900">
+                      {applyDiscountToPriceString(product.price, 0.2)}
+                    </span>
+                    <span className="ml-2 text-lg text-gray-600">
+                      {product.period}
+                    </span>
+                  </div>
+                  <div className="flex items-center">
+                    <span className="ml-2 text-sm text-gray-500 line-through">
+                      {product.price}
+                    </span>
+                    <span className="ml-3 inline-flex items-center rounded-full bg-teal-100 px-2 py-0.5 text-xs font-semibold text-teal-700">
+                      20% off
+                    </span>
+                  </div>
                 </div>
                 <p className="mt-4 text-sm text-gray-600">
                   {product.description}

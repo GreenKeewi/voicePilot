@@ -9,18 +9,18 @@ export function Hero() {
         <FadeDiv className="mx-auto">
           <a
             aria-label="View latest update the changelog page"
-            href="#"
+            href="/pricing"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-auto w-full"
           >
             <div className="inline-flex max-w-full items-center gap-3 rounded-full bg-white/5 px-2.5 py-0.5 pr-3 pl-0.5 font-medium text-gray-900 ring-1 shadow-lg shadow-teal-400/20 ring-black/10 filter backdrop-blur-[1px] transition-colors hover:bg-teal-500/2.5 focus:outline-hidden sm:text-sm">
               <span className="shrink-0 truncate rounded-full border bg-gray-50 px-2.5 py-1 text-sm text-gray-600 sm:text-xs">
-                News
+                Deals!
               </span>
               <span className="flex items-center gap-1 truncate">
                 <span className="w-full truncate">
-                  New AI Voice Technology
+                  20% off on all plans only for this month.
                 </span>
 
                 <RiArrowRightUpLine className="size-4 shrink-0 text-gray-700" />
@@ -47,7 +47,7 @@ export function Hero() {
           </a>
           <a
             className="inline-flex cursor-pointer flex-row items-center justify-center gap-1 rounded-md border border-gray-300 bg-white px-5 py-3 leading-4 font-medium tracking-wide whitespace-nowrap text-gray-900 shadow-sm transition-all duration-200 ease-in-out hover:bg-gray-50"
-            href="/products"
+            href="/pricing"
           >
             See Pricing
           </a>

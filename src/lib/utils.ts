@@ -37,3 +37,26 @@ export const hasErrorInput = [
   // ring color
   "ring-red-200 dark:ring-red-700/30",
 ]
+
+// Parse a price string like "$1,499" or "$7,500+" and return a discounted
+// formatted price preserving currency symbol and trailing plus sign.
+export function applyDiscountToPriceString(priceStr: string, discount = 0.2) {
+  if (!priceStr || typeof priceStr !== "string") return priceStr
+
+  // Capture currency symbol (e.g., $), number part, and optional trailing +
+  const m = priceStr.match(/^([^\d]*)([\d,\.]+)([^\d]*)$/)
+  if (!m) return priceStr
+
+  const [, currency = "", numberPart, trailing = ""] = m
+
+  // Remove commas and parse number
+  const numeric = parseFloat(numberPart.replace(/,/g, ""))
+  if (Number.isNaN(numeric)) return priceStr
+
+  const discounted = Math.round(numeric * (1 - discount))
+
+  // Format with commas
+  const formatted = discounted.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+
+  return `${currency}${formatted}${trailing}`
+}

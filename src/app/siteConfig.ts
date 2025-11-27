@@ -5,7 +5,7 @@ export const siteConfig = {
   description: "Smart AI call agents that answer calls, book appointments, and provide customer support 24/7.",
   baseLinks: {
     home: "/",
-    products: "/products",
+    products: "/pricing",
     about: "/about",
     contact: "/contact",
     endorsements: "/#testimonials",

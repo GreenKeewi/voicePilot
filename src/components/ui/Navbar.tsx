@@ -35,7 +35,7 @@ export function NavBar() {
                 Home
               </Link>
               <Link className="px-2 py-1 text-gray-900" href={siteConfig.baseLinks.products}>
-                Products
+                Pricing
               </Link>
               <Link className="px-2 py-1 text-gray-900" href={siteConfig.baseLinks.about}>
                 About
@@ -84,7 +84,7 @@ export function NavBar() {
               <Link href={siteConfig.baseLinks.home}>Home</Link>
             </li>
             <li onClick={() => setOpen(false)}>
-              <Link href={siteConfig.baseLinks.products}>Products</Link>
+              <Link href={siteConfig.baseLinks.products}>Pricing</Link>
             </li>
             <li onClick={() => setOpen(false)}>
               <Link href={siteConfig.baseLinks.about}>About</Link>
