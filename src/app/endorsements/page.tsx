@@ -1,5 +1,6 @@
 import { redirect } from "next/navigation"
 
 export default function Page() {
-  redirect("/#testimonials")
+  // Route removed — redirect to home (anchor fragments can cause issues during build)
+  redirect("/")
 }

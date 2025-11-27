@@ -1,4 +1,5 @@
 import { RiLightbulbFill, RiRocketFill, RiTeamFill } from "@remixicon/react"
+import Image from "next/image"
 
 export default function About() {
   return (
@@ -18,10 +19,10 @@ export default function About() {
         <div className="mb-16 rounded-xl bg-white p-8 shadow-sm border border-gray-200 md:p-12">
           <div className="prose prose-lg max-w-none">
             <p className="text-lg leading-relaxed text-gray-700">
-              I created VoicePilot to help small business owners who are overwhelmed with constant phone calls while trying to run their shops. I&apos;ve always loved building tools that solve real problems, so I designed an AI call agent that&apos;s affordable, simple, and reliable.
+              I built VoicePilot because I’ve seen how tough it is for small business owners to juggle everything—running the shop, serving customers, and answering nonstop phone calls. Since I’ve been coding since I was a kid, I’ve always looked for ways to use tech to solve real problems, and this felt like something I could genuinely help with.
             </p>
             <p className="mt-6 text-lg leading-relaxed text-gray-700">
-              My goal is to help businesses stay connected 24/7 without needing extra staff. Every small business deserves to provide excellent customer service without breaking the bank or burning out.
+              VoicePilot is my way of giving business owners an AI call agent that’s affordable, easy to set up, and dependable. My goal is simple: help small businesses stay responsive 24/7 without hiring extra staff, stressing about missed calls, or stretching their budget. Every business deserves smooth customer communication, and I want VoicePilot to make that possible.
             </p>
           </div>
         </div>
@@ -30,10 +31,12 @@ export default function About() {
         <div className="mb-16 flex justify-center">
           <div className="relative h-80 w-80 overflow-hidden rounded-xl shadow-lg">
             <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-teal-50 to-gray-100">
-              <div className="text-center">
-                <div className="mb-4 text-6xl">👤</div>
-                <p className="text-sm font-medium text-gray-600">Founder Photo</p>
-              </div>
+              <Image
+                src="/images/pfp.jpg"
+                width={500}
+                height={500}
+                alt="Picture of the author"
+              />
             </div>
           </div>
         </div>
