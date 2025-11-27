@@ -10,7 +10,6 @@ export function Hero() {
           <a
             aria-label="View latest update the changelog page"
             href="/pricing"
-            target="_blank"
             rel="noopener noreferrer"
             className="mx-auto w-full"
           >
