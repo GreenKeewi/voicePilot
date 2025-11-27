@@ -15,7 +15,7 @@ export default function NotFound() {
           Page not found
         </h1>
         <p className="mt-3 text-sm text-gray-600">
-          VoicePilot couldn't locate this page. The conversation or resource you
+          VoicePilot couldn&apos;t locate this page. The conversation or resource you
           requested might have moved or been renamed.
         </p>
 
