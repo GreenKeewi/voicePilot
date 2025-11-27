@@ -6,7 +6,7 @@ export default function Testimonials() {
             name: "Aisha S.",
             role: "Salon Owner",
             business: "Aisha's Beauty Studio",
-            quote: "VoicePilot handles every call for my salon and makes us look professional. Game changer.",
+            quote: "VoicePilot handles every call for my salon and makes us look professional. Absolute Game changer.",
             rating: 5,
             image: "👩🏾",
         },
@@ -14,16 +14,16 @@ export default function Testimonials() {
             name: "Daniel P.",
             role: "Contractor",
             business: "P&D Construction",
-            quote: "I'm a contractor and always driving. This agent books jobs and answers questions fast.",
-            rating: 5,
+            quote: "I'm a contractor and always driving. This agent books jobs and answers clients questions fast.",
+            rating: 4,
             image: "👨🏻",
         },
     ]
 
     const celebrity = {
-        name: "John Cena",
+        name: "Cristiano Ronaldo",
         role: "Celebrity Endorsement",
-        quote: "VoicePilot keeps businesses connected effortlessly. I'd trust it to answer my calls.",
+        quote: "VoicePilot is incredible! It’s like having a receptionist that never sleeps. Highly recommended for any business looking to elevate their customer service like mine.",
         image: "⭐",
     }
 

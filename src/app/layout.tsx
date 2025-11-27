@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     creator: "@voicepilot",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicn.ico",
   },
 }
 
