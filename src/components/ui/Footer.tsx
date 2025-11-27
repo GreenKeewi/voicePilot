@@ -16,7 +16,6 @@ const Footer = () => {
         { label: "Products", href: "/products" },
         { label: "Contact", href: "/contact" },
         { label: "Testimonials", href: "/endorsements" },
-        { label: "Blog", href: "/blog" },
       ],
     },
     legal: {

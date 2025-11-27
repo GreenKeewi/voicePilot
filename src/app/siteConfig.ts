@@ -9,6 +9,5 @@ export const siteConfig = {
     about: "/about",
     contact: "/contact",
     endorsements: "/#testimonials",
-    blog: "/blog",
   },
 }

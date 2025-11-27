@@ -1,7 +1,6 @@
 import {
   RiMailFill,
-  RiMapPinFill,
-  RiTimeFill,
+  RiTimeFill
 } from "@remixicon/react"
 
 export default function Contact() {
@@ -32,22 +31,6 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-
-            <div className="rounded-xl bg-white p-8 shadow-sm border border-gray-200">
-              <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-teal-50">
-                  <RiMapPinFill className="size-6 text-teal-500" />
-                </div>
-                <div>
-                  <h3 className="mb-2 text-lg font-semibold text-gray-900">Office Address</h3>
-                  <p className="text-gray-600">
-                    125 King Street West<br />
-                    Toronto, ON
-                  </p>
-                </div>
-              </div>
-            </div>
-
             <div className="rounded-xl bg-white p-8 shadow-sm border border-gray-200">
               <div className="flex items-start gap-4">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-teal-50">
@@ -64,7 +47,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-         
+
         </div>
       </div>
     </main>
