@@ -93,7 +93,7 @@ export default function Testimonials() {
                         Join hundreds of satisfied customers
                     </h3>
                     <p className="mb-6 text-lg text-gray-600">
-                        Start your 14-day free trial today
+                        Start your 7-day free trial today
                     </p>
                     <a
                         href="/products"
